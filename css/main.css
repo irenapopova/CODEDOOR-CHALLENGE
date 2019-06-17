@@ -27,8 +27,8 @@ font-size: .9rem;
 .card011 {
   background-color: #F2C94C;
   height: 35em;
-  width: 200px;
-  margin-bottom: 2em;
+  margin-bottom: 6em;
+  position:relative;
 }
 .card-subtitle {
   padding: 30px;
@@ -67,10 +67,10 @@ hr {
   padding: 0;
 }
 
-.container {
+/* .container {
   padding-left: 8px !important;
 
-}
+}*/
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -108,20 +108,14 @@ main {
   background-size: cover;
   position: relative;
 }
-.fit-image {
-  height: auto;
-  position: absolute;
-  bottom: 0px;
-}
+
 .hero-heading{
   position: absolute;
   line-height: 56px;
   width: 150px;
 }
 
-section {
-  padding: 0 50px;
-}
+
 
 .hero-image h1 {
   position: absolute;
@@ -146,6 +140,9 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 64px;
+}
+.pa_0 {
+  padding: 0 !important;
 }
 .ml_2{
   margin-left: 25px;
@@ -204,52 +201,59 @@ section {
   background:black;
   height:0.2em;
 }
-.row {
+/* .row {
   margin-left: 22px !important;
 
-}
-
-.communities{
-  background:#F2C94C;
+}*/
+.box-wrapper{
+  padding-left: 15px;
   padding-top: 4em;
   padding-bottom: 2em;
   font-weight: bold;
-
+}
+.communities{
+  background:#F2C94C;
   }
+
+.custom-row{
+  margin-left: -25px !important;
+  margin-right: -25px !important;
+}
+.custom-row .col-4{
+  padding-left: 25px;
+  padding-right: 25px;
+}
 .technologies{
     background:#83AFED;
-    padding-top: 4em;
-    padding-bottom: 2em;
-    font-weight: bold;
+
 }
 .sub-text {
   font-size: 16px;
+  margin-bottom: 3em;
 }
 .learn-more{
   background: #000000;
   padding: 15px 20px;
   color: #FFF;
-  max-width: 150px;
-  margin-top: 25px;
   display: block;
-  text-align: center;
-  margin-left: 22px;
+
+  }
+  .small-learn-more{
+    width: 170px;
   }
   .ma_3 {
     margin-left: 1rem;
   }
 
   .ourmission{
-    background:#;
-    padding-top: ;
-    padding-bottom: ;
-    font-weight: bold;
+    padding-bottom: 8em;
 
     }
 
 .fit-image {
   width: 100%;
-padding-top:
+  position: absolute;
+  bottom: 0;
 }
 
 /* .card011 */
